@@ -4,7 +4,7 @@
 
 Name:           maxflow
 Version:        3.0.5
-Release:        %mkrel 1
+Release:        1
 Summary:        Software for computing mincut/maxflow in a graph
 Group:          System/Libraries
 License:        GPLv3+
@@ -46,10 +46,10 @@ near real-time performance possible.
 
 %build
 %cmake
-%cmake_build
+%make_build
 
 %install
-%cmake_install
+%make_install -C build
 
 %files -n %{libname}
 %doc CHANGES.TXT README.md
