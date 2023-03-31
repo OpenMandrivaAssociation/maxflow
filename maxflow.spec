@@ -4,7 +4,7 @@
 
 Name:           maxflow
 Version:        3.0.5
-Release:        1
+Release:        2
 Summary:        Software for computing mincut/maxflow in a graph
 Group:          System/Libraries
 License:        GPLv3+
